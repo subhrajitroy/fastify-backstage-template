@@ -1,0 +1,23 @@
+{
+  "name": "fastify-hello",
+  "version": "1.0.0",
+  "description": "Test code to learn fastify",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhrajitroy/fastify-hello.git"
+  },
+  "keywords": [
+    "fastify"
+  ],
+  "author": "Subhrajit Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subhrajitroy/fastify-hello/issues"
+  },
+  "homepage": "https://github.com/subhrajitroy/fastify-hello#readme"
+}
