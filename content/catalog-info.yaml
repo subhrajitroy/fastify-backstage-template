@@ -7,3 +7,5 @@ spec:
   type: service
   owner: user:guest
   lifecycle: experimental
+  dependsOn:
+    -resource: ${{ values.dname | dump }}

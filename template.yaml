@@ -36,6 +36,15 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
+    - title: Choose a dependency
+      required:
+        - dependencyname
+      properties:
+        repoUrl:
+          title: Service on which this has a dependency
+          type: string
+          ui:options:
+            rows: 1
   steps:
     - id: fetch-base
       name: Fetch Base
@@ -44,6 +53,7 @@ spec:
         url: ./content
         values:
           name: ${{ parameters.name }}
+          dname: ${{ parameters.dependencyname }}
     - id: publish
       name: Publish
       action: publish:github
