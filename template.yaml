@@ -10,13 +10,6 @@ metadata:
   description: An example template for the scaffolder that creates a simple Fastify hello world service
   uid: 9bef4b71-15d9-49da-a059-3309f2b40780
   etag: caa393fab1821c5e90827b89633e0c6b60b11e6d
-relations:
-  - type: ownedBy
-    targetRef: user:default/guest
-    target:
-      kind: user
-      namespace: default
-      name: guest
 spec:
   owner: user:guest
   type: service
