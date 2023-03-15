@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ${{ values.name | dump }}
+  circleci.com/project-slug: github/subhrajitroy/${{ values.name | dump }}
 spec:
   type: service
   owner: user:guest
