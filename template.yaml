@@ -40,9 +40,10 @@ spec:
       required:
         - dependencyname
       properties:
-        repoUrl:
+        dependencyname:
           title: Service on which this has a dependency
           type: string
+          ui:autofocus: true
           ui:options:
             rows: 1
   steps:
